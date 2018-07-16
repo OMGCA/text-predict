@@ -1,0 +1,100 @@
+# depslib dependency file v1.0
+1484743367 source:d:\dsa assignment\src\hashtable.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"textPred.h"
+
+1484083671 d:\dsa assignment\src\textpred.h
+	"hashTable.h"
+
+1484743377 d:\dsa assignment\src\hashtable.h
+
+1484082852 source:d:\dsa assignment\src\stack.c
+	<stdio.h>
+	<stdlib.h>
+
+1485136562 source:d:\dsa assignment\src\textpred.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"hashTable.h"
+	"stack.h"
+
+1484083353 d:\dsa assignment\src\stack.h
+
+1485136608 source:d:\dsa assignment\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"textPred.h"
+	"stack.h"
+	"hashTable.h"
+
+1485136912 source:m:\dsa assignment - y3834764\dsa assignment - y3834764\src\hashtable.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"textPred.h"
+
+1485136932 m:\dsa assignment - y3834764\dsa assignment - y3834764\src\textpred.h
+	"hashTable.h"
+
+1485136916 m:\dsa assignment - y3834764\dsa assignment - y3834764\src\hashtable.h
+
+1485169705 source:m:\dsa assignment - y3834764\dsa assignment - y3834764\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"textPred.h"
+	"stack.h"
+	"hashTable.h"
+
+1485136924 m:\dsa assignment - y3834764\dsa assignment - y3834764\src\stack.h
+
+1485170556 source:m:\dsa assignment - y3834764\dsa assignment - y3834764\src\stack.c
+	<stdio.h>
+	<stdlib.h>
+
+1485136928 source:m:\dsa assignment - y3834764\dsa assignment - y3834764\src\textpred.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"hashTable.h"
+	"stack.h"
+
+1485136912 source:z:\dsa assignment - y3834764\dsa assignment - y3834764\src\hashtable.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"textPred.h"
+
+1485136932 z:\dsa assignment - y3834764\dsa assignment - y3834764\src\textpred.h
+	"hashTable.h"
+
+1485136916 z:\dsa assignment - y3834764\dsa assignment - y3834764\src\hashtable.h
+
+1485169705 source:z:\dsa assignment - y3834764\dsa assignment - y3834764\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"textPred.h"
+	"stack.h"
+	"hashTable.h"
+
+1485136924 z:\dsa assignment - y3834764\dsa assignment - y3834764\src\stack.h
+
+1485170556 source:z:\dsa assignment - y3834764\dsa assignment - y3834764\src\stack.c
+	<stdio.h>
+	<stdlib.h>
+
+1485136928 source:z:\dsa assignment - y3834764\dsa assignment - y3834764\src\textpred.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"hashTable.h"
+	"stack.h"
+
