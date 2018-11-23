@@ -1,5 +1,5 @@
 /* Data Structure & Algorithms(ELE00007I) program code
-*  Examination number:¡¡Y3834764
+*  Examination number:Â¡Â¡Y3834764
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -67,10 +67,8 @@ void importTextFile(struct wordDic* dic, char* filename)
 {
 
 	FILE* fp;
-	char line[256];
-	char word[128];
-
-	char* token;
+	char line[128];
+	char* tmp = malloc(128*sizeof(char));
 
 	fp = fopen(filename, "r");
 
@@ -80,17 +78,9 @@ void importTextFile(struct wordDic* dic, char* filename)
 	}
 
 	while ( fgets(line, sizeof(line), fp) ) //Scan the text file line by line
-    {
-        /*Subsitute all "\n" with ','*/
-		line[strcspn(line, "\n")] = 0;
-
-		token = strtok(line, ",");
-
-		strncpy(word, token, 128);
-
-        /*Use of strdup is to create a copy of the actual content of the word.*/
-        /*Direct use of word will result in linking the pointer to the dictionary structure*/
-        wordAddToDic(dic, strdup(word));
+    	{
+        	strcpy(tmp,line);
+        	wordAddToDic(dic, strdup(tmp));
 	}
 
 	fclose(fp);
